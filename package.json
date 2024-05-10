@@ -1,0 +1,31 @@
+{
+  "name": "@tenoxui/property",
+  "version": "1.0.0",
+  "description": "TenoxUI property for tenoxui css framework.",
+  "main": "dist/property.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"files": [
+ "dist/*",
+"README.md",
+"LICENSE",
+ "package.json",
+
+],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenoxui/property.git"
+  },
+  "keywords": [
+    "css",
+    "css-framework",
+    "css-in-js"
+  ],
+  "author": "NOuSantx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tenoxui/property/issues"
+  },
+  "homepage": "https://github.com/tenoxui/property#readme"
+}
