@@ -9,12 +9,14 @@ This is a package that contain default property for tenoxui css framework.
 Install :
 
 ```sh
-npm i tenoxui @tenoxui/property
+npm i tenoxui @tenoxui/property --save-dev
 ```
 
 Usage :
 
-Without default property :
+1. Without default property :
+
+You need to defjne your type and property manually inside as parameter for tenoxui :
 
 ```jsx
 import { useLayoutEffect } from "react";
@@ -33,7 +35,9 @@ const App = () => {
 export default App;
 ```
 
-With `@tenoxui/property` :
+2. With `@tenoxui/property` :
+
+Or, just simply use tenoxui default property and you don't need to manually added it inside your project :
 
 ```jsx
 import { useLayoutEffect } from "react";
