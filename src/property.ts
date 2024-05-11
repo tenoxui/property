@@ -34,7 +34,7 @@ const property: PropertyMap = {
   tc: "color",
   td: "textDecoration",
   ti: "textIndent",
-  tn: "textReansform",
+  tn: "textTransform",
   ws: "wordSpacing",
   family: "fontFamily",
   "font-s": "fontStyle",
