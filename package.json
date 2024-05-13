@@ -1,6 +1,6 @@
 {
   "name": "@tenoxui/property",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0",
   "description": "TenoxUI property for tenoxui css framework.",
   "types": "dist/property.d.ts",
   "main": "dist/property.global.js",
