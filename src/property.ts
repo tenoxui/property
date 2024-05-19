@@ -1,5 +1,5 @@
 /*!
- * @tenoxui/property v1.0.0 (https://github.com/tenoxui/css)
+ * @tenoxui/property v1.1.0 (https://github.com/tenoxui/css)
  * Copyright (c) 2024 NOuSantx
  * Licensed under the MIT License (https://github.com/tenoxui/css/blob/main/LICENSE)
  */
@@ -15,16 +15,16 @@ const property: PropertyMap = {
   pb: "paddingBottom",
   pr: "paddingRight",
   pl: "paddingLeft",
-  ph: ["paddingLeft", "paddingRight"],
-  pv: ["paddingTop", "paddingBottom"],
+  py: ["paddingTop", "paddingBottom"],
+  px: ["paddingLeft", "paddingRight"],
   // Margin
   m: "margin",
   mt: "marginTop",
   mb: "marginBottom",
   mr: "marginRight",
   ml: "marginLeft",
-  mv: ["marginTop", "marginBottom"],
-  mh: ["marginLeft", "marginRight"],
+  my: ["marginTop", "marginBottom"],
+  mx: ["marginLeft", "marginRight"],
   // Text and font
   fs: "fontSize",
   fw: "fontWeight",
@@ -48,7 +48,6 @@ const property: PropertyMap = {
   l: "left",
   // Display
   d: "display",
-  display: "display",
   // Width and Height
   w: "width",
   "w-mx": "maxWidth",
@@ -58,22 +57,23 @@ const property: PropertyMap = {
   "h-mn": "minHeight",
   // Background
   bg: "background",
+  "bg-color": "backgroundColor",
+  "bg-image": "backgroundImage",
   "bg-attach": "backgroundAttachment",
   "bg-origin": "backgroundOrigin",
   "bg-size": "backgroundSize",
   "bg-clip": "backgroundClip",
   "bg-repeat": "backgroundRepeat",
   "bg-loc": "backgroundPosition",
-  "bg-image": "backgroundImage",
   // Flex
   flex: "flex",
   "flex-auto": "flex",
   fd: "flexDirection",
   "flex-wrap": "flexWrap",
-  order: "order",
   "flex-basis": "flexBasis",
   "flex-grow": "flexGrow",
   "flex-shrink": "flexShrink",
+  order: "order",
   // Gap
   gap: "gap",
   // Align
@@ -91,6 +91,7 @@ const property: PropertyMap = {
   "hue-rotate": "ftr",
   saturate: "ftr",
   sepia: "ftr",
+  "drop-shadow": "drop-shadow",
   opa: "opacity",
   // Backdrop Filter
   backdrop: "backdropFilter",
@@ -145,9 +146,9 @@ const property: PropertyMap = {
   // More
   rt: "rotate",
   scale: "scale",
-  // TenoxUI Custom property
+  // custom property
   box: ["width", "height"],
-  "flex-parent": ["justifyContent", "alignItems"],
+  "flex-parent": ["justifyContent", "alignItems"]
 };
 
 export default property;
