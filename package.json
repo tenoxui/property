@@ -1,28 +1,20 @@
 {
   "name": "@tenoxui/property",
-  "version": "1.0.0",
-  "description": "TenoxUI property for tenoxui css framework.",
-  "types": "dist/property.d.ts",
-  "main": "dist/property.global.js",
-  "module": "dist/property.js",
+  "version": "1.1.0",
+  "description": "TenoxUI default property for tenoxui css.",
+  "types": "dist/property.esm.d.ts",
+  "main": "dist/property.js",
+  "module": "dist/property.esm.js",
   "scripts": {
-    "build": "tsup"
+    "dev": "tsc --watch",
+    "build": "tsc && terser -o dist/property.min.js dist/property.js -m --source-map url='property.min.js.map' && terser -o dist/property.esm.min.js dist/property.esm.js -m --source-map url='property.esm.min.js.map'"
   },
-  "files": [
-    "dist/*",
-    "README.md",
-    "LICENSE",
-    "package.json"
-  ],
+  "files": ["dist/*", "README.md", "LICENSE", "package.json"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tenoxui/property.git"
   },
-  "keywords": [
-    "css",
-    "css-framework",
-    "css-in-js"
-  ],
+  "keywords": ["css", "css-framework", "css-in-js"],
   "author": "NOuSantx",
   "license": "MIT",
   "bugs": {
@@ -31,7 +23,6 @@
   "homepage": "https://github.com/tenoxui/property#readme",
   "devDependencies": {
     "terser": "^5.31.0",
-    "tsup": "^8.0.2",
     "typescript": "^5.4.5"
   }
 }
