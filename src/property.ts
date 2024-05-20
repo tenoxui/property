@@ -151,4 +151,4 @@ const property: PropertyMap = {
   "flex-parent": ["justifyContent", "alignItems"]
 };
 
-export default property;
+
