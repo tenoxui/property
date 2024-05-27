@@ -1,7 +1,7 @@
 {
   "name": "@tenoxui/property",
-  "version": "1.1.1",
-  "description": "TenoxUI default property for tenoxui css.",
+  "version": "1.2.0",
+  "description": "Default properties for tenoxui css.",
   "types": "dist/property.esm.d.ts",
   "main": "dist/property.js",
   "module": "dist/property.esm.js",
