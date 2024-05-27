@@ -1,5 +1,5 @@
 /*!
- * @tenoxui/property v1.1.0 (https://github.com/tenoxui/css)
+ * @tenoxui/property v1.2.0 (https://github.com/tenoxui/css)
  * Copyright (c) 2024 NOuSantx
  * Licensed under the MIT License (https://github.com/tenoxui/css/blob/main/LICENSE)
  */
@@ -35,6 +35,7 @@ const property: PropertyMap = {
   td: "textDecoration",
   ti: "textIndent",
   tn: "textTransform",
+  tw: "textWrap",
   ws: "wordSpacing",
   family: "fontFamily",
   "font-s": "fontStyle",
@@ -66,9 +67,9 @@ const property: PropertyMap = {
   "bg-repeat": "backgroundRepeat",
   "bg-loc": "backgroundPosition",
   // Flex
+  fd: "flexDirection",
   flex: "flex",
   "flex-auto": "flex",
-  fd: "flexDirection",
   "flex-wrap": "flexWrap",
   "flex-basis": "flexBasis",
   "flex-grow": "flexGrow",
@@ -84,25 +85,10 @@ const property: PropertyMap = {
   ji: "justifyItems",
   // Filter
   filter: "filter",
-  blur: "ftr",
-  brightness: "ftr",
-  contrast: "ftr",
-  grayscale: "ftr",
-  "hue-rotate": "ftr",
-  saturate: "ftr",
-  sepia: "ftr",
-  "drop-shadow": "drop-shadow",
-  opa: "opacity",
   // Backdrop Filter
   backdrop: "backdropFilter",
-  //? bFt: a shorthand of backdropFilter
-  "back-blur": "bFt",
-  "back-brightness": "bFt",
-  "back-contrast": "bFt",
-  "back-grayscale": "bFt",
-  "back-saturate": "bFt",
-  "back-sepia": "bFt",
   // Border
+  border: "border",
   br: "borderRadius",
   bw: "borderWidth",
   "bw-left": "borderLeftWidth",
@@ -130,20 +116,8 @@ const property: PropertyMap = {
   "tr-delay": "transitionDelay",
   // Transform: for v0.4.26 or higher.
   transform: "transform",
-  //? tra: is a shorts of transform, it will separated from its main property 'transform' and will have different approach for style
-  "move-x": "tra",
-  "move-y": "tra",
-  matrix: "tra",
-  "matrix-3d": "tra",
-  "rt-3d": "tra",
-  translate: "tra",
-  "scale-3d": "tra",
-  "scale-x": "tra",
-  "scale-y": "tra",
-  skew: "tra",
-  "skew-x": "tra",
-  "skew-y": "tra",
   // More
+  opa: "opacity",
   rt: "rotate",
   scale: "scale",
   // custom property
