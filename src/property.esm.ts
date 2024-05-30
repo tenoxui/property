@@ -1,5 +1,5 @@
 /*!
- * @tenoxui/property v1.2.0 (https://github.com/tenoxui/css)
+ * @tenoxui/property v1.3.0 (https://github.com/tenoxui/css)
  * Copyright (c) 2024 NOuSantx
  * Licensed under the MIT License (https://github.com/tenoxui/css/blob/main/LICENSE)
  */
@@ -69,7 +69,6 @@ const property: PropertyMap = {
   // Flex
   fd: "flexDirection",
   flex: "flex",
-  "flex-auto": "flex",
   "flex-wrap": "flexWrap",
   "flex-basis": "flexBasis",
   "flex-grow": "flexGrow",
@@ -89,13 +88,14 @@ const property: PropertyMap = {
   backdrop: "backdropFilter",
   // Border
   border: "border",
+  bc: "borderColor",
   br: "borderRadius",
+  bs: "borderStyle",
   bw: "borderWidth",
   "bw-left": "borderLeftWidth",
   "bw-right": "borderRightWidth",
   "bw-top": "borderTopWidth",
   "bw-bottom": "borderBottomWidth",
-  bs: "borderStyle",
   "radius-top": ["borderTopLeftRadius", "borderTopRightRadius"],
   "radius-bottom": ["borderBottomLeftRadius", "borderBottomRightRadius"],
   "radius-left": ["borderTopLeftRadius", "borderBottomLeftRadius"],
@@ -114,7 +114,7 @@ const property: PropertyMap = {
   "tr-prop": "transitionProperty",
   "tr-timing": "transitionTimingFunction",
   "tr-delay": "transitionDelay",
-  // Transform: for v0.4.26 or higher.
+  // Transform
   transform: "transform",
   // More
   opa: "opacity",
@@ -124,5 +124,6 @@ const property: PropertyMap = {
   box: ["width", "height"],
   "flex-parent": ["justifyContent", "alignItems"]
 };
+
 
 export default property;
